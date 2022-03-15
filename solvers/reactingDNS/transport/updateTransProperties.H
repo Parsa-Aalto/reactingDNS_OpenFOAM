@@ -116,6 +116,7 @@ forAll(Y,i)
 }
 
 mixAlpha = 0.5*(mixLambdaA+(1/mixLambdaB))/thermo.Cp();
+mixCp = thermo.Cp(); // Cp of the mixture.
 // for soret effect, thermal diffusion for light species
 if(thermalDiffusion)
 {
