@@ -12,7 +12,7 @@ i,new volScalarField
         runTime.timeName(),
         mesh,
         IOobject::NO_READ,
-        IOobject::NO_WRITE
+        IOobject::AUTO_WRITE // NO_WRITE
     ),
     mesh,   
     dimensionedScalar(name,dimensionSet (1,1,-3,-1,0,0,0),0)
