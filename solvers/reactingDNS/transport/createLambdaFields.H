@@ -84,7 +84,7 @@ volScalarField mixAlpha
     dimensionedScalar("mixAlpha",dimensionSet (1,-1,-1,0,0,0,0),0.0)
 );
 
-volScalarField mixCP
+volScalarField mixCp
 (
     IOobject
     (
